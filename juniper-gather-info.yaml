@@ -1,7 +1,7 @@
 ---
 - name: Gathering System Information
   hosts: all
-  connection: juniper.device.pyez
+  connection: local
   gather_facts: no
   roles:
     - juniper.junos
